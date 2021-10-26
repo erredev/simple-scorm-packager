@@ -1,4 +1,4 @@
-`version 0.2.6`
+`version 0.2.8`
 
 ## Documentation
 
@@ -29,7 +29,7 @@ npm install simple-scorm-packager
   \`${package.author || 'com'}.${organization || 'company'}.${title || ''}.${generated uuid}\`  
 * `identifier` {string} [null] If empty, identifier is generated using:
 \`${package.author || 'com'}.${organization || 'company'}.${title || ''}.${generated uuid}\`
-* `masteryScore` {number} [80]
+* `masteryScore` {number} [null] If empty, it won't be added to the manifest
 * `startingPage` {string} ['index.html']
 * `source` {string} ['./'] The path to files from which the package will be created
 * `package` {object} Available options:

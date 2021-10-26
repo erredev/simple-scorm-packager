@@ -1,5 +1,9 @@
 # scopackager changelog
 
+## 0.2.8
+* removed default mastery_score 80.
+* If empty it won't be added to the manifest.
+
 ## 0.2.7
 * removed all repeated metadata ADL SCORM
 * removed all file tags in resource, except startingPage file

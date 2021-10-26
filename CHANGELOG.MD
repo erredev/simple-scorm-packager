@@ -1,5 +1,9 @@
 # scopackager changelog
 
+## 0.2.7
+* removed all repeated metadata ADL SCORM
+* removed all file tags in resource, except startingPage file
+
 ## 0.2.6
 * setting `useUuidForIdentifierManifest: false` in the options object, the `identifier` will be used for the manifest identifier.
 

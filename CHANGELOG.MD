@@ -1,5 +1,8 @@
 # scopackager changelog
 
+## 0.2.9
+* removed default mastery_score 80. If empty it won't be added to the manifest.
+
 ## 0.2.8
 * removed all repeated metadata ADL SCORM
 * removed all file tags in resource, except startingPage file
@@ -10,7 +13,6 @@
 ## 0.2.6
 * included MIT LICENSE
 * fix for non-latin languages
-
 ## 0.2.5
 * changed behavior of adding timestamp to .zip file: by default, this is *not* added. It can be added by setting `package.appendTimeToOutput: true` in the options object.
 

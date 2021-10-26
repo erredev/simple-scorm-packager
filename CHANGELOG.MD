@@ -1,5 +1,9 @@
 # scopackager changelog
 
+## 0.2.8
+* removed all repeated metadata ADL SCORM
+* removed all file tags in resource, except startingPage file
+
 ## 0.2.7
 * fix config identifier not being used when generating the schema manifests
 
